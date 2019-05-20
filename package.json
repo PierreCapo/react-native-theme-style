@@ -1,0 +1,23 @@
+{
+  "name": "react-native-theme-style",
+  "version": "0.0.1",
+  "description": "A react-native package which provides theme for your styling objects",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/PierreCapo/react-native-theme-style",
+  "license": "MIT",
+  "devDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.8"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.3",
+    "react-native": ">=0.59.8"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
+  },
+  "author": {
+    "name": "pierrecapo",
+    "url": "https://twitter.com/PierreCaporossi"
+  }
+}
