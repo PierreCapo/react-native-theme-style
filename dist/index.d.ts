@@ -12,5 +12,5 @@ interface IStyles<K> {
 /**
  * Configure the theme by using a context
  */
-export declare function configureTheme<T>(context: React.Context<T>): <O extends IStyles<{}>, T_1>(styles: O, params?: T_1 | undefined) => { [P in keyof O]: StyleSheet.NamedStyles<any>; };
+export declare function configureTheme<T>(context: React.Context<T>): <O extends IStyles<any>, T_1>(styles: O, params?: T_1 | undefined) => { [P in keyof O]: any; };
 export {};

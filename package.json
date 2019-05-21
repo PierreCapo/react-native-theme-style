@@ -1,11 +1,15 @@
 {
   "name": "react-native-theme-style",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react-native package which provides theme for your styling objects",
   "main": "./dist/index.js",
   "repository": "https://github.com/PierreCapo/react-native-theme-style",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc || flowgen ./dist/index.d.ts -o ./dist/index.js.flow"
+  },
   "devDependencies": {
+    "flowgen": "^1.8.3",
     "react": "16.8.3",
     "react-native": "0.59.8"
   },
