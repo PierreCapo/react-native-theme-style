@@ -69,7 +69,7 @@ export const Foo = () => {
   );
 };
 
-const stylings = {
+const styles = {
   bar: {
     color: "yellow"
   },
@@ -96,7 +96,7 @@ export const Foo = () => {
   );
 };
 
-const stylings = {
+const styles = {
   bar: {
     color: "yellow"
   },
@@ -140,7 +140,7 @@ export const Foo = () => {
   );
 };
 
-const stylings: ThemeType<{ isActive: boolean }> = {
+const styles: ThemeType<{ isActive: boolean }> = {
   bar: {
     color: "yellow"
   },
