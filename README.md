@@ -30,7 +30,7 @@ import * as React from "react";
 import { configureTheme } from "react-native-theme-style";
 
 const defaultTheme = { color: "red" };
-export const ThemeContext = React.useContext(defaultTheme);
+export const ThemeContext = React.createContext(defaultTheme);
 
 export const useTheme = configureTheme(ThemeContext);
 ```

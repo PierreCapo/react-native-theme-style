@@ -1,6 +1,6 @@
 {
   "name": "react-native-theme-style",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A react-native package which provides theme for your styling objects",
   "main": "./dist/index.js",
   "repository": "https://github.com/PierreCapo/react-native-theme-style",

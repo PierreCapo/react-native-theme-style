@@ -14,8 +14,8 @@ export interface ThemeStyle<T, K = {}> {
   [key: string]: IStyle | IFunctionalStyle<T, K>;
 }
 declare type StyleType<O> =
-  | StyleSheet.NamedStyles<any>
-  | StyleSheet.NamedStyles<O>;
+  | StyleSheet$NamedStyles<any>
+  | StyleSheet$NamedStyles<O>;
 declare interface IStyles<K> {
   [key: string]: StyleType<K>;
 }
@@ -24,8 +24,8 @@ declare interface IStyles<K> {
  */
 declare export function configureTheme<T>(
   context: React.Context<T>
-): <O: IStyles<any>, T_1>(
+): <O: IStyles<{}>, T_1>(
   styles: O,
   params?: T_1 | void
-) => $ObjMapi<O, <P>(P) => any>;
+) => $ObjMapi<O, <P>(P) => StyleSheet$NamedStyles<any>>;
 declare export {};
